@@ -10,3 +10,10 @@ Hoping to make a cognitive agent.
   - Wrapper above doesn't actually do much, easier to just create custom wrappers.
 - Peruse of LangChain's wide variety of other self-hosted libraries support (namely memory systems).
   - Intending to implement own Graph Knowledge Base system eventually.
+
+## Installation
+
+### Notes
+
+- Certain packages are added as submodules even if available on PyPI to use latest developments.
+- Certain packages are optional optimizations, but added as dependencies for simplicity.
