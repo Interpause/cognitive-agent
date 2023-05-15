@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "cognitive-agent"
+version = "0.1.0"
+description = "Hoping to make a cognitive agent."
+authors = ["John-Henry Lim <42513874+Interpause@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "cognitive_agent"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
